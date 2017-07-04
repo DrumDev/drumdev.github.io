@@ -5,11 +5,6 @@ html, body, div, section, ul, li, input, button, td, tr, table, span, button, ar
   border: 0px;
 }
 
-/***** Fonts *****/
-
-/*font-family: 'Orbitron', sans-serif;
-font-family: 'Ubuntu Condensed', sans-serif;*/
-
 /***** Bootstrap Sticky Footer *****/
 
 html {position: relative;min-height: 100%;}
@@ -25,16 +20,6 @@ body {margin-bottom: 60px;}
 
 #main-content{
   padding-top:50px;
-}
-
-body{
-    font-family: 'Ubuntu Condensed', sans-serif;
-    text-align: center;
-}
-
-h1{
-    font-family: 'Orbitron', sans-serif!important;
-    font-size:70px;
 }
 
 img{
@@ -53,4 +38,26 @@ img{
     h1{font-size:34px; padding:20px 0}
     h2{font-size:24px;padding-bottom:40px;}
     img{width:85%;height:auto;}
+}
+
+
+
+
+
+
+/* START OF SASS */
+
+$logoFont : 'Orbitron', sans-serif;
+$pageFont : 'Ubuntu Condensed', sans-serif;
+
+body{
+    text-align: center;
+    font-family: $pageFont;
+    color: black;
+}
+
+h1{
+    font-family: $logoFont;
+    font-size:70px;
+    color: black;
 }
