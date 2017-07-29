@@ -1,0 +1,100 @@
+/***** Remove Default Browser Styles *****/
+html, body, div, section, ul, li, input, button, td, tr, table, span, button, article, h1, h2, h3, p {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+/***** Bootstrap Sticky Footer *****/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.text-muted {
+  padding: 20px 0;
+    font-size:16px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 60px;
+  background-color: #000;
+}
+
+/***** Main styles *****/
+
+#main-content {padding:100px 20px 40px 20px;}
+
+body {
+  text-align: center;
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: black;
+    min-width:320px;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 70px;
+}
+
+h2 {
+    font-size: 34px;
+    padding-bottom: 40px;
+}
+
+p{
+    font-size: 20px;
+    padding-bottom:20px;
+}
+
+.drum-btn{
+    font-size:20px;
+}
+
+
+
+@media screen and (max-width: 390px) {
+  h1 {
+    font-size: 34px;
+    padding: 20px 0;
+    }
+
+  h2 {
+    font-size: 24px;
+    padding-bottom: 40px;
+    }
+ }
+
+@media screen and (min-width: 391px) and (max-width: 560px) {
+  h1 {
+    font-size: 36px;
+    padding: 20px 0;
+    }
+
+  h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
+    }
+ }
+
+@media screen and (max-width: 560px) {
+    #main-content {padding:70px 20px 40px 20px;}
+}
+
+
+
+
+
+
+
+
+
+
+
