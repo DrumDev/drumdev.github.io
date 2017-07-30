@@ -15,11 +15,4 @@ $(document).ready(function(){
 });
     
     
-$(".animsition").animsition({
-    inClass: 'zoom-in',
-    outClass: 'zoom-out',
-    linkElement: '.animsition-link',
-    inDuration: 1000,
-    outDuration: 1000 
-  });    
 });
