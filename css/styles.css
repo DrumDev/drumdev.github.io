@@ -93,6 +93,9 @@ p{
     #main-content {padding:70px 20px 40px 20px;}
 }
 
+.animsition.fade-in-left{
+    min-height: 100%;
+}
 
 
 
