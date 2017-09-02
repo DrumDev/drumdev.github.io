@@ -5,6 +5,21 @@ html, body, div, section, ul, li, input, button, td, tr, table, span, button, ar
   border: 0px;
 }
 
+.bg-dark{
+    background:#000!important;
+}
+
+.navbar-toggler{
+    
+    cursor: pointer;
+}
+
+@media screen and (min-width:800px){
+.navbar-brand {
+    padding-left: 100px;
+}
+}
+
 /***** Bootstrap Sticky Footer *****/
 html {
   position: relative;
@@ -13,6 +28,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  min-width:320px;
 }
 
 .text-muted {
@@ -56,6 +72,15 @@ p{
 
 .drum-btn{
     font-size:20px;
+    color: black;
+    cursor: pointer;
+    background-color:white;
+    border-color:#ccc;
+}
+.drum-btn:hover{
+    color: black;
+    background-color:rgb(221, 221, 221);
+    border-color: #8c8c8c;
 }
 
 .thing{
@@ -88,9 +113,20 @@ p{
     padding-bottom: 40px;
     }
  }
+@media screen and (min-width: 561px) and (max-width: 800px) {
+  h1 {
+    font-size: 55px;
+    padding: 20px 0;
+    }
 
-@media screen and (max-width: 560px) {
-    #main-content {padding:70px 20px 40px 20px;}
+  h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
+    }
+ }
+
+@media screen and (max-width: 800px) {
+    #main-content {padding:30px 20px 30px 20px;}
 }
 
 
