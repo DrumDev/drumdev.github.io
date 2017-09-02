@@ -20,6 +20,11 @@ html, body, div, section, ul, li, input, button, td, tr, table, span, button, ar
 }
 }
 
+@media screen and (max-width:575px){
+    .navbar-text{
+        display:none;
+}
+}
 /***** Bootstrap Sticky Footer *****/
 html {
   position: relative;
