@@ -155,6 +155,13 @@ footer .content{
     }
 }
 
+@media screen and (min-width:576px) and (max-width:620px){
+    .navbar-nav li {
+    font-size: 0.9rem;
+    padding-top: 2px;
+    }
+}
+
 @media screen and (min-width: 576px){
     html{
         font-size:17px;
