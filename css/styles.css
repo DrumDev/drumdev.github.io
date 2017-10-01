@@ -105,9 +105,33 @@ footer .content{
 .blue-bg{
     background:#a5c7e2;
 }
-.blue-bg .drum-btn:hover{
+.blue-bg .drum-btn{
     color: white!important;
     background-color:#1c2a4d!important;
+}
+.blue-bg .drum-btn:hover{
+    color: #a5c7e2!important;
+    background-color:#1c2a4d!important;
+}
+#who-we-are p{
+    font-size:1rem;
+    line-height: 1.4rem;
+}
+#who-we-are ul{
+    margin-left:10%;
+}
+#who-we-are ul li{
+    color:#1c2a4d;
+    list-style-type: square;
+}
+#who-we-are ul li p{
+    color:black;
+}
+#who-we-are .card-header {
+    padding: 5px;
+}
+#who-we-are .card a{
+    color:#1c2a4d;
 }
 
 
@@ -146,11 +170,9 @@ footer .link:hover{
 .dp{
     margin-bottom:20px;
 }
-.card a{
-    color:#1c2a4d;
-}
-#accordion, #accordion2{
-    max-width:350px;
+
+#who-we-are .card{
+    max-width:500px;
     margin:0 auto;
 }
 .temp-spacer{
