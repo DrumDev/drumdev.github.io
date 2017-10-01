@@ -153,6 +153,11 @@ footer .link:hover{
     max-width:350px;
     margin:0 auto;
 }
+.temp-spacer{
+    height:20px;
+    width:100%;
+    background:transparent;
+}
 
 /* Bootstraps Media Queries */
 
