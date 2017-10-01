@@ -1,18 +1,20 @@
+$(document).ready(function() {
 
 
-$(document).ready(function(){
-    
-//    $('.slickkk').slick({
-//  infinite: true,
-//  slidesToShow: 1,
-//  slidesToScroll: 1,
-//  accessibility:true,
-//  autoplay: true,
-//  autoplaySpeed: 4000,
-//  arrows:false,
-//  dots:true,
-//  speed:1000       
-//});
-    
-    
+  $(function() {
+     $("a.smooth-scroll").click(function() {
+       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+         var target = $(this.hash);
+         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+         if (target.length) {
+           $('html, body').animate({
+             scrollTop: target.offset().top
+           }, 1000);
+           return false;
+         }
+       }
+     });
+   });
+
+
 });

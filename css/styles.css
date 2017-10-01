@@ -33,10 +33,11 @@ h2 {
 }
 h3 {
     font-size: 1.8rem;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 h4 {
     font-size: 1.5rem;
+    padding-bottom:20px;
 }
 p{
     font-size: 1.25rem;
@@ -124,14 +125,30 @@ footer .content{
     background-color:#a5c7e2;
     border-color: #8c8c8c;
 }
-.linee{
-    width:100%;
-    height:2px;
-    background:white;
-    display:block;
-    margin:0 auto;
+.social{
+    height:45px;
+    margin-bottom:20px;
+    margin: 20px 10px;
+    cursor: pointer;
+    transition-duration: .1s;
 }
-
+.social:hover{
+    transform: rotate(10deg);
+    transition-duration: .1s;
+}
+footer .link{
+    color:white;
+}
+footer .link:hover{
+    color:#a5c7e2;
+    text-decoration: none;
+}
+.dp{
+    margin-bottom:20px;
+}
+.card a{
+    color:#1c2a4d;
+}
 
 /* Bootstraps Media Queries */
 

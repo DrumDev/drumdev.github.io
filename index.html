@@ -15,7 +15,7 @@
     
     <body>
         
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navbar-expand-sm" id="top">
             <div class="limiter">
                 <a class="navbar-brand" href="#">< DrumDev /></a>
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,19 +24,19 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">What We Do</a>
+                            <a class="nav-link smooth-scroll" href="#what-we-do">What We Do</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Who We Are</a>
+                            <a class="nav-link smooth-scroll" href="#who-we-are">Who We Are</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Work</a>
+                            <a class="nav-link smooth-scroll" href="#our-work">Our Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
+                            <a class="nav-link smooth-scroll" href="#latest-news">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link smooth-scroll" href="#contact-us">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -47,15 +47,14 @@
         <div class="container-fluid content" id="hero">
             <div class="limiter">
                 <h1>Web Development Drumchapel</h1>
-                <a href="#"><button type="button" class="btn btn-secondary drum-btn">Find out more</button></a>
+                <a href="#what-we-do" class="smooth-scroll"><button type="button" class="btn btn-secondary drum-btn">Find out more</button></a>
             </div>
         </div>
         
         <div class="container-fluid content" id="what-we-do">
             <div class="limiter">
                 <h2>What we do</h2>
-                <p>(Under Construction)</p>
-<!--
+
                 <div class="row">
                     <div class="col-lg-9 text-left" style="margin:0 auto;">
                         <p>We can make websites!</p>
@@ -75,41 +74,72 @@
                         <br>
                     </div>
                 </div>
--->
-                <a href="#"><button type="button" class="btn btn-secondary drum-btn">Find out more</button></a>
+
+                <a href="#who-we-are" class="smooth-scroll"><button type="button" class="btn btn-secondary drum-btn">Find out more</button></a>
             </div>
         </div>
         
         <div class="container-fluid content blue-bg" id="who-we-are">
             <div class="limiter">
                 <h2>Who we are</h2>
-                <p>(Under Construction)</p>
-<!--
+
                 <div class="row">
                     <div class="col-lg-6">
                         <h3>Zander</h3>
-                        <p>(img, social media icons etc.)</p>
+                        <img src="img/dp.png" alt="zander" class="dp"/>
                         <h4>Web Developer</h4>
-                        <p>Dropdown ></p>
+                        <div id="accordion" role="tablist">
+                          <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                              <h5 class="mb-0">
+                                <a data-toggle="collapse" href="#zanderDD" aria-expanded="true" aria-controls="zanderDD">
+                                  Skills &amp; experience
+                                </a>
+                              </h5>
+                            </div>
+
+                            <div id="zanderDD" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                              <div class="card-body">
+                                bla
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                     </div>
                     <div class="col-lg-6">
                         <h3>Wully</h3>
-                        <p>(img, social media icons etc.)</p>
+                        <img src="img/dp.png" alt="wully" class="dp"/>
                         <h4>Student</h4>
-                        <p>Dropdown ></p>
+                        <div id="accordion2" role="tablist">
+                          <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo">
+                              <h5 class="mb-0">
+                                <a data-toggle="collapse" href="#wullyDD" aria-expanded="true" aria-controls="wullyDD">
+                                  Skills &amp; experience
+                                </a>
+                              </h5>
+                            </div>
+
+                            <div id="wullyDD" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion2">
+                              <div class="card-body">
+                                bla
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-9" style="margin:0 auto;">
-                        <div class="linee"></div>
+                        <br>
                         <p><small>DrumDev is a platform we have set up to mess about with web design features and practice working on improving our skills. It’s a bit of fun with the potential of being took further in the future.
                         Future plans could be to run a web design and web development company offering various
                         services. Teaching people in the community how to code is also a possibility.</small></p>
                         <br>
                     </div>
                 </div>
--->
-                <a href="#"><button type="button" class="btn btn-secondary drum-btn">Find out more</button></a>
+
+                <a href="#our-work" class="smooth-scroll"><button type="button" class="btn btn-secondary drum-btn">Find out more</button></a>
             </div>
         </div>
         
@@ -117,7 +147,7 @@
             <div class="limiter">
                 <h2>Our Work</h2>
                 <p>(Under Construction)</p>
-                <a href="#"><button type="button" class="btn btn-secondary drum-btn">Find out more</button></a>
+                <a href="#latest-news" class="smooth-scroll"><button type="button" class="btn btn-secondary drum-btn">Find out more</button></a>
             </div>
         </div>
         
@@ -125,7 +155,6 @@
             <div class="limiter">
                 <h2>Latest News</h2>
                 <p>(Under Construction)</p>
-                <a href="#"><button type="button" class="btn btn-secondary drum-btn">Find out more</button></a>
             </div>
         </div>
         
@@ -133,10 +162,11 @@
             <div class="container-fluid content">
                 <div class="limiter">
                     <h2>Contact Us</h2>
-                    <p>Email</p>
-                    <p>Facebook</p>
-                    <p>Twitter</p>
-                    <p>Return to top</p>
+                    <p>Email us at <a href="mailto:contact@DrumDev.co.uk" class="link">contact@DrumDev.co.uk</a></p>
+                    <img src="img/fb.svg" alt="Facebook" class="social"/>
+                    <img src="img/tw.svg" alt="Twitter" class="social"/>
+                    <a href="https://drumdev.github.io" target="_blank"><img src="img/gh.svg" alt="Github" class="social"/></a>
+                    <p><a href="#top" class="link smooth-scroll">Return to top</a></p>
                     <p class="text-muted"> &copy; 2017 DrumDev.co.uk </p>
                 </div>
             </div>
