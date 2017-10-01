@@ -149,6 +149,10 @@ footer .link:hover{
 .card a{
     color:#1c2a4d;
 }
+#accordion, #accordion2{
+    max-width:350px;
+    margin:0 auto;
+}
 
 /* Bootstraps Media Queries */
 
