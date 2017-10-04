@@ -180,6 +180,9 @@ ul:not(.navbar-nav) li p{
     max-width:230px;
     margin:0 auto;
 }
+#what-we-do p.text-center{
+    margin: 20px auto;
+}
 
 
 /* Who We Are */
@@ -199,6 +202,9 @@ ul:not(.navbar-nav) li p{
 }
 .dp{
     margin-bottom:20px;
+}
+#who-we-are .info{
+    margin:0 auto;
 }
 
 
