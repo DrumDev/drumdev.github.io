@@ -421,7 +421,7 @@ footer .link:hover{
     color:#a5c7e2;
     text-decoration: none;
 }
-.social, .social:active{
+.social, .social:visited{
     height:45px;
     margin-bottom:20px;
     margin: 20px 10px;
