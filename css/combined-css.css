@@ -96,7 +96,7 @@
 .slick-slide img
 {
     display: block;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 .slick-slide.slick-loading img
 {
@@ -156,8 +156,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 48px;
+    height: 48px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -196,7 +196,7 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 48px;
     line-height: 1;
 
     opacity: .75;
@@ -550,6 +550,17 @@ ul:not(.navbar-nav) li p{
     max-width:500px;
     margin-bottom:20px;
 }
+#latest-news .card{
+    width:70%;
+}
+#latest-news .slick-next {
+    right: 5px;
+    z-index:1;
+}
+#latest-news .slick-prev {
+    left: 5px;
+    z-index:1;
+}
 
 
 /* Latest News */
@@ -593,6 +604,23 @@ ul:not(.navbar-nav) li p{
     }
     #what-we-do ul{
         margin-left:0;
+    }
+    #latest-news .card{
+        width:80%;
+    }
+    #latest-news .card.odd{
+        margin-left:20%;
+    }
+    #latest-news .card.even{
+        margin-right:20%;
+    }
+    #latest-news .slick-next {
+        right: 5px;
+        z-index:1;
+    }
+    #latest-news .slick-prev {
+        left: 5px;
+        z-index:1;
     }
 }
 @media screen and (min-width: 767px){
@@ -647,9 +675,14 @@ ul:not(.navbar-nav) li p{
         max-width:none;
         margin:0;
     }
-    #latest-news .card-deck .card{
-        margin-left:0!important;
-        margin-right:0!important;
+    #latest-news .card{
+        width:100%;
+    }
+    #latest-news .card.odd{
+        margin-left:0;
+    }
+    #latest-news .card.even{
+        margin-right:0;
     }
 
 }

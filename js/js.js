@@ -37,4 +37,32 @@ $(document).ready(function() {
     ]
   });
     
+    $('.latest-news-slick').slick({
+    arrows: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          arrows: true
+        }
+      },
+        {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          arrows: true
+        }
+      }
+    ]
+  });
+    
 });
