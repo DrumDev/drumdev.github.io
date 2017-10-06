@@ -3,4 +3,4 @@ Disallow: /foodbank/
 Disallow: /CCTV/
 Disallow: /Tribes/
 
-Sitemap: https://drumdev.github.io/sitemap.html
+Sitemap: https://drumdev.github.io/Sitemap.html
