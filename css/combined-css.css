@@ -422,9 +422,9 @@ footer .link:hover{
     text-decoration: none;
 }
 .social, .social:visited{
-    height:45px;
+    height:48px;
     margin-bottom:20px;
-    margin: 20px 10px;
+    margin: 20px 5px;
     cursor: pointer;
     transition-duration: .1s;
 }
