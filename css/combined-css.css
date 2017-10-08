@@ -443,7 +443,8 @@ footer .content{
     padding-bottom:30px!important;
 }
 #hero{
-    background:#1c2a4d;
+    background-image:url(../img/banner-blue-hq.jpg);
+    background-size:cover;
     padding-top:70px;
 }
 .blue-bg{
@@ -684,7 +685,6 @@ ul:not(.navbar-nav) li p{
     #latest-news .card.even{
         margin-right:0;
     }
-
 }
 @media screen and (min-width: 1200px){
     html{
@@ -735,5 +735,17 @@ ul:not(.navbar-nav) li p{
     .navbar-nav li {
         font-size: 0.9rem;
         padding-top: 2px;
+    }
+}
+
+/* Min heights for latest news card text to keep them equal heights. Redo with flex eventually */
+@media screen and (min-width: 992px) and (max-width:1040px){
+    #latest-news .card-title + .card-text{
+        min-height:115px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width:1290px){
+    #latest-news .card-title + .card-text{
+        min-height:100px;
     }
 }
