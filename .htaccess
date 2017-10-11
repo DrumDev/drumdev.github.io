@@ -34,4 +34,4 @@
                                   "text/xml"
 </IfModule>
 
-Header set Cache-Control "max-age=2628000, img"
+Header set Cache-Control "max-age=2628000, public"
