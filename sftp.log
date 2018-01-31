@@ -1,0 +1,792 @@
+Oct 13 21:09:36 10.71.51.39 u90889285 Connection from 10.71.51.39 port 17602 on 217.160.62.53 port 22
+Oct 13 21:09:45 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 17602 ssh2
+Oct 13 21:09:45 211.224.192.167 u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 13 21:21:19 10.71.51.39 u90889285 Connection from 10.71.51.39 port 46028 on 217.160.62.53 port 22
+Oct 13 21:21:20 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 46028 ssh2
+Oct 13 21:21:20 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 13 21:21:20 - u90889285 open "/index.html" flags READ mode 0666
+Oct 13 21:21:21 - u90889285 close "/index.html" bytes read 229 written 0
+Oct 13 21:21:21 - u90889285 [10.71.51.39|get|1|229|0|0|0|2f696e6465782e68746d6c|]
+Oct 13 21:21:54 - u90889285 open "/index.html" flags READ mode 0666
+Oct 13 21:21:56 - u90889285 close "/index.html" bytes read 229 written 0
+Oct 13 21:21:56 - u90889285 [10.71.51.39|get|2|229|0|0|0|2f696e6465782e68746d6c|]
+Oct 13 21:22:56 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 13 21:22:56 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 13 21:24:24 10.71.51.39 u90889285 Connection from 10.71.51.39 port 31908 on 217.160.62.53 port 22
+Oct 13 21:24:24 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 31908 ssh2
+Oct 13 21:24:24 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 13 21:24:25 - u90889285 sent status No such file
+Oct 13 21:24:25 - u90889285 sent status No such file
+Oct 13 21:24:25 - u90889285 sent status No such file
+Oct 13 21:24:25 - u90889285 mkdir name "/DrumDev" mode 0777
+Oct 13 21:24:25 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f4472756d446576|]
+Oct 13 21:24:25 - u90889285 sent status No such file
+Oct 13 21:24:26 - u90889285 open "/DrumDev/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:24:26 - u90889285 close "/DrumDev/index.html" bytes read 0 written 248
+Oct 13 21:24:26 - u90889285 [10.71.51.39|put|0|248|0|0|0|2f4472756d4465762f696e6465782e68746d6c|]
+Oct 13 21:25:00 - u90889285 sent status No such file
+Oct 13 21:25:01 - u90889285 sent status No such file
+Oct 13 21:25:01 - u90889285 sent status No such file
+Oct 13 21:25:01 - u90889285 mkdir name "/advantajuice" mode 0777
+Oct 13 21:25:01 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f616476616e74616a75696365|]
+Oct 13 21:25:01 - u90889285 sent status No such file
+Oct 13 21:25:01 - u90889285 open "/advantajuice/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:25:01 - u90889285 close "/advantajuice/index.html" bytes read 0 written 253
+Oct 13 21:25:01 - u90889285 [10.71.51.39|put|0|253|0|0|0|2f616476616e74616a756963652f696e6465782e68746d6c|]
+Oct 13 21:25:37 211.224.192.167 u90889285 sent status No such file
+Oct 13 21:25:37 211.224.192.167 u90889285 rename old "/DrumDev" new "/drumdev"
+Oct 13 21:25:37 211.224.192.167 u90889285 [10.71.51.39|rename|0|0|0|0|0|2f4472756d446576|2f6472756d646576]
+Oct 13 21:26:01 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 13 21:26:02 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 13 21:33:55 211.224.192.167 u90889285 remove name "/index.html"
+Oct 13 21:33:55 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f696e6465782e68746d6c|]
+Oct 13 21:35:32 10.71.51.39 u90889285 Connection from 10.71.51.39 port 13780 on 217.160.62.53 port 22
+Oct 13 21:35:33 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 13780 ssh2
+Oct 13 21:35:33 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 13 21:35:34 - u90889285 open "/advantajuice/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:35:35 - u90889285 close "/advantajuice/index.html" bytes read 0 written 180
+Oct 13 21:35:35 - u90889285 [10.71.51.39|put|1|180|0|0|0|2f616476616e74616a756963652f696e6465782e68746d6c|]
+Oct 13 21:36:07 - u90889285 open "/drumdev/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:36:08 - u90889285 close "/drumdev/index.html" bytes read 0 written 175
+Oct 13 21:36:08 - u90889285 [10.71.51.39|put|1|175|0|0|0|2f6472756d6465762f696e6465782e68746d6c|]
+Oct 13 21:37:08 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 13 21:37:08 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 13 21:44:20 10.71.51.39 u90889285 Connection from 10.71.51.39 port 58646 on 217.160.62.53 port 22
+Oct 13 21:44:20 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 58646 ssh2
+Oct 13 21:44:20 10.71.51.39 u90889285 Connection from 10.71.51.39 port 58654 on 217.160.62.53 port 22
+Oct 13 21:44:20 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 58654 ssh2
+Oct 13 21:44:20 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 13 21:44:20 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 13 21:44:21 - u90889285 sent status No such file
+Oct 13 21:44:21 - u90889285 open "/drumdev/.htaccess" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:21 - u90889285 close "/drumdev/.htaccess" bytes read 0 written 5396
+Oct 13 21:44:21 - u90889285 [10.71.51.39|put|0|5396|0|0|0|2f6472756d6465762f2e6874616363657373|]
+Oct 13 21:44:21 - u90889285 sent status No such file
+Oct 13 21:44:21 - u90889285 open "/drumdev/robots.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:22 - u90889285 close "/drumdev/robots.txt" bytes read 0 written 124
+Oct 13 21:44:22 - u90889285 [10.71.51.39|put|1|124|0|0|0|2f6472756d6465762f726f626f74732e747874|]
+Oct 13 21:44:22 - u90889285 sent status No such file
+Oct 13 21:44:22 - u90889285 open "/drumdev/Sitemap.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:22 - u90889285 close "/drumdev/Sitemap.html" bytes read 0 written 334
+Oct 13 21:44:22 - u90889285 [10.71.51.39|put|0|334|0|0|0|2f6472756d6465762f536974656d61702e68746d6c|]
+Oct 13 21:44:22 - u90889285 sent status No such file
+Oct 13 21:44:22 - u90889285 open "/drumdev/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:22 - u90889285 sent status No such file
+Oct 13 21:44:23 - u90889285 sent status No such file
+Oct 13 21:44:23 - u90889285 mkdir name "/drumdev/css" mode 0777
+Oct 13 21:44:23 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f6472756d6465762f637373|]
+Oct 13 21:44:24 - u90889285 sent status No such file
+Oct 13 21:44:25 - u90889285 open "/drumdev/css/combined-css.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:29 - u90889285 close "/drumdev/css/combined-css.css" bytes read 0 written 139569
+Oct 13 21:44:29 - u90889285 [10.71.51.39|put|4|139569|0|0|0|2f6472756d6465762f6373732f636f6d62696e65642d6373732e637373|]
+Oct 13 21:44:29 - u90889285 sent status No such file
+Oct 13 21:44:29 - u90889285 sent status No such file
+Oct 13 21:44:30 - u90889285 sent status No such file
+Oct 13 21:44:31 - u90889285 mkdir name "/drumdev/css/fonts" mode 0777
+Oct 13 21:44:31 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f6472756d6465762f6373732f666f6e7473|]
+Oct 13 21:44:32 - u90889285 close "/drumdev/index.html" bytes read 0 written 358965
+Oct 13 21:44:32 - u90889285 [10.71.51.39|put|10|358965|0|0|0|2f6472756d6465762f696e6465782e68746d6c|]
+Oct 13 21:44:32 - u90889285 sent status No such file
+Oct 13 21:44:32 - u90889285 sent status No such file
+Oct 13 21:44:32 - u90889285 open "/drumdev/css/fonts/slick.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:33 - u90889285 open "/drumdev/css/fonts/slick.eot" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:33 - u90889285 close "/drumdev/css/fonts/slick.svg" bytes read 0 written 2152
+Oct 13 21:44:33 - u90889285 [10.71.51.39|put|1|2152|0|0|0|2f6472756d6465762f6373732f666f6e74732f736c69636b2e737667|]
+Oct 13 21:44:33 - u90889285 close "/drumdev/css/fonts/slick.eot" bytes read 0 written 2048
+Oct 13 21:44:33 - u90889285 [10.71.51.39|put|0|2048|0|0|0|2f6472756d6465762f6373732f666f6e74732f736c69636b2e656f74|]
+Oct 13 21:44:33 - u90889285 sent status No such file
+Oct 13 21:44:33 - u90889285 sent status No such file
+Oct 13 21:44:33 - u90889285 open "/drumdev/css/fonts/slick.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:33 - u90889285 open "/drumdev/css/fonts/slick.woff" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:33 - u90889285 close "/drumdev/css/fonts/slick.ttf" bytes read 0 written 1892
+Oct 13 21:44:33 - u90889285 [10.71.51.39|put|0|1892|0|0|0|2f6472756d6465762f6373732f666f6e74732f736c69636b2e747466|]
+Oct 13 21:44:33 - u90889285 sent status No such file
+Oct 13 21:44:33 - u90889285 close "/drumdev/css/fonts/slick.woff" bytes read 0 written 1380
+Oct 13 21:44:33 - u90889285 [10.71.51.39|put|0|1380|0|0|0|2f6472756d6465762f6373732f666f6e74732f736c69636b2e776f6666|]
+Oct 13 21:44:33 - u90889285 sent status No such file
+Oct 13 21:44:34 - u90889285 sent status No such file
+Oct 13 21:44:34 - u90889285 mkdir name "/drumdev/img" mode 0777
+Oct 13 21:44:34 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f6472756d6465762f696d67|]
+Oct 13 21:44:34 - u90889285 sent status No such file
+Oct 13 21:44:34 - u90889285 sent status No such file
+Oct 13 21:44:34 - u90889285 open "/drumdev/img/banner-blue-hq.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:34 - u90889285 open "/drumdev/img/cctv-devices.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:35 - u90889285 close "/drumdev/img/banner-blue-hq.jpg" bytes read 0 written 9185
+Oct 13 21:44:35 - u90889285 [10.71.51.39|put|1|9185|0|0|0|2f6472756d6465762f696d672f62616e6e65722d626c75652d68712e6a7067|]
+Oct 13 21:44:35 - u90889285 sent status No such file
+Oct 13 21:44:35 - u90889285 open "/drumdev/img/dd-meta-img-fb.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:35 - u90889285 close "/drumdev/img/cctv-devices.png" bytes read 0 written 36314
+Oct 13 21:44:35 - u90889285 [10.71.51.39|put|1|36314|0|0|0|2f6472756d6465762f696d672f636374762d646576696365732e706e67|]
+Oct 13 21:44:35 - u90889285 close "/drumdev/img/dd-meta-img-fb.png" bytes read 0 written 4960
+Oct 13 21:44:35 - u90889285 [10.71.51.39|put|0|4960|0|0|0|2f6472756d6465762f696d672f64642d6d6574612d696d672d66622e706e67|]
+Oct 13 21:44:35 - u90889285 sent status No such file
+Oct 13 21:44:35 - u90889285 sent status No such file
+Oct 13 21:44:35 - u90889285 open "/drumdev/img/dd-meta-img-tw.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:35 - u90889285 open "/drumdev/img/dfb-devices.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:36 - u90889285 close "/drumdev/img/dfb-devices.png" bytes read 0 written 26800
+Oct 13 21:44:36 - u90889285 [10.71.51.39|put|1|26800|0|0|0|2f6472756d6465762f696d672f6466622d646576696365732e706e67|]
+Oct 13 21:44:36 - u90889285 sent status No such file
+Oct 13 21:44:36 - u90889285 open "/drumdev/img/dp-w.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:36 - u90889285 close "/drumdev/img/dd-meta-img-tw.png" bytes read 0 written 1478
+Oct 13 21:44:36 - u90889285 [10.71.51.39|put|1|1478|0|0|0|2f6472756d6465762f696d672f64642d6d6574612d696d672d74772e706e67|]
+Oct 13 21:44:36 - u90889285 sent status No such file
+Oct 13 21:44:36 - u90889285 close "/drumdev/img/dp-w.jpg" bytes read 0 written 7845
+Oct 13 21:44:36 - u90889285 [10.71.51.39|put|0|7845|0|0|0|2f6472756d6465762f696d672f64702d772e6a7067|]
+Oct 13 21:44:36 - u90889285 sent status No such file
+Oct 13 21:44:36 - u90889285 open "/drumdev/img/dp-z.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:36 - u90889285 open "/drumdev/img/faq.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:37 - u90889285 close "/drumdev/img/faq.jpg" bytes read 0 written 14073
+Oct 13 21:44:37 - u90889285 [10.71.51.39|put|1|14073|0|0|0|2f6472756d6465762f696d672f6661712e6a7067|]
+Oct 13 21:44:37 - u90889285 sent status No such file
+Oct 13 21:44:37 - u90889285 close "/drumdev/img/dp-z.jpg" bytes read 0 written 9809
+Oct 13 21:44:37 - u90889285 [10.71.51.39|put|1|9809|0|0|0|2f6472756d6465762f696d672f64702d7a2e6a7067|]
+Oct 13 21:44:37 - u90889285 open "/drumdev/img/favicon2.ico" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:37 - u90889285 sent status No such file
+Oct 13 21:44:37 - u90889285 close "/drumdev/img/favicon2.ico" bytes read 0 written 1150
+Oct 13 21:44:37 - u90889285 [10.71.51.39|put|0|1150|0|0|0|2f6472756d6465762f696d672f66617669636f6e322e69636f|]
+Oct 13 21:44:37 - u90889285 open "/drumdev/img/fb.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:37 - u90889285 sent status No such file
+Oct 13 21:44:37 - u90889285 close "/drumdev/img/fb.svg" bytes read 0 written 430
+Oct 13 21:44:37 - u90889285 [10.71.51.39|put|0|430|0|0|0|2f6472756d6465762f696d672f66622e737667|]
+Oct 13 21:44:37 - u90889285 open "/drumdev/img/first.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:37 - u90889285 sent status No such file
+Oct 13 21:44:37 - u90889285 open "/drumdev/img/gh.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:38 - u90889285 close "/drumdev/img/gh.svg" bytes read 0 written 839
+Oct 13 21:44:38 - u90889285 [10.71.51.39|put|1|839|0|0|0|2f6472756d6465762f696d672f67682e737667|]
+Oct 13 21:44:38 - u90889285 sent status No such file
+Oct 13 21:44:38 - u90889285 open "/drumdev/img/hello.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:38 - u90889285 close "/drumdev/img/hello.jpg" bytes read 0 written 9469
+Oct 13 21:44:38 - u90889285 [10.71.51.39|put|0|9469|0|0|0|2f6472756d6465762f696d672f68656c6c6f2e6a7067|]
+Oct 13 21:44:38 - u90889285 sent status No such file
+Oct 13 21:44:38 - u90889285 open "/drumdev/img/news.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:38 - u90889285 close "/drumdev/img/news.png" bytes read 0 written 108
+Oct 13 21:44:38 - u90889285 [10.71.51.39|put|0|108|0|0|0|2f6472756d6465762f696d672f6e6577732e706e67|]
+Oct 13 21:44:38 - u90889285 sent status No such file
+Oct 13 21:44:38 - u90889285 close "/drumdev/img/first.jpg" bytes read 0 written 21895
+Oct 13 21:44:38 - u90889285 [10.71.51.39|put|1|21895|0|0|0|2f6472756d6465762f696d672f66697273742e6a7067|]
+Oct 13 21:44:39 - u90889285 sent status No such file
+Oct 13 21:44:39 - u90889285 open "/drumdev/img/struggle3.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:39 - u90889285 open "/drumdev/img/tr-devices.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:39 - u90889285 close "/drumdev/img/struggle3.jpg" bytes read 0 written 9861
+Oct 13 21:44:39 - u90889285 [10.71.51.39|put|0|9861|0|0|0|2f6472756d6465762f696d672f7374727567676c65332e6a7067|]
+Oct 13 21:44:39 - u90889285 sent status No such file
+Oct 13 21:44:39 - u90889285 open "/drumdev/img/tw.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:39 - u90889285 close "/drumdev/img/tr-devices.png" bytes read 0 written 31579
+Oct 13 21:44:39 - u90889285 [10.71.51.39|put|0|31579|0|0|0|2f6472756d6465762f696d672f74722d646576696365732e706e67|]
+Oct 13 21:44:39 - u90889285 sent status No such file
+Oct 13 21:44:39 - u90889285 close "/drumdev/img/tw.svg" bytes read 0 written 684
+Oct 13 21:44:39 - u90889285 [10.71.51.39|put|0|684|0|0|0|2f6472756d6465762f696d672f74772e737667|]
+Oct 13 21:44:39 - u90889285 open "/drumdev/img/w-cert.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:39 - u90889285 sent status No such file
+Oct 13 21:44:40 - u90889285 close "/drumdev/img/w-cert.jpg" bytes read 0 written 5187
+Oct 13 21:44:40 - u90889285 [10.71.51.39|put|1|5187|0|0|0|2f6472756d6465762f696d672f772d636572742e6a7067|]
+Oct 13 21:44:40 - u90889285 open "/drumdev/img/wp.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:40 - u90889285 sent status No such file
+Oct 13 21:44:40 - u90889285 close "/drumdev/img/wp.svg" bytes read 0 written 1061
+Oct 13 21:44:40 - u90889285 [10.71.51.39|put|0|1061|0|0|0|2f6472756d6465762f696d672f77702e737667|]
+Oct 13 21:44:40 - u90889285 sent status No such file
+Oct 13 21:44:40 - u90889285 sent status No such file
+Oct 13 21:44:40 - u90889285 sent status No such file
+Oct 13 21:44:40 - u90889285 sent status No such file
+Oct 13 21:44:40 - u90889285 sent status No such file
+Oct 13 21:44:40 - u90889285 sent status No such file
+Oct 13 21:44:40 - u90889285 mkdir name "/drumdev/js" mode 0777
+Oct 13 21:44:40 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f6472756d6465762f6a73|]
+Oct 13 21:44:40 - u90889285 sent status No such file
+Oct 13 21:44:40 - u90889285 sent status No such file
+Oct 13 21:44:41 - u90889285 mkdir name "/drumdev/plugins" mode 0777
+Oct 13 21:44:41 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f6472756d6465762f706c7567696e73|]
+Oct 13 21:44:41 - u90889285 sent status No such file
+Oct 13 21:44:41 - u90889285 open "/drumdev/js/combined-js.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:41 - u90889285 sent status No such file
+Oct 13 21:44:42 - u90889285 mkdir name "/drumdev/plugins/slick" mode 0777
+Oct 13 21:44:42 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f6472756d6465762f706c7567696e732f736c69636b|]
+Oct 13 21:44:43 - u90889285 close "/drumdev/js/combined-js.js" bytes read 0 written 148326
+Oct 13 21:44:43 - u90889285 [10.71.51.39|put|2|148326|0|0|0|2f6472756d6465762f6a732f636f6d62696e65642d6a732e6a73|]
+Oct 13 21:44:43 - u90889285 sent status No such file
+Oct 13 21:44:43 - u90889285 sent status No such file
+Oct 13 21:44:44 - u90889285 open "/drumdev/plugins/slick/config.rb" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:44 - u90889285 open "/drumdev/plugins/slick/ajax-loader.gif" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:44 - u90889285 close "/drumdev/plugins/slick/config.rb" bytes read 0 written 161
+Oct 13 21:44:44 - u90889285 [10.71.51.39|put|0|161|0|0|0|2f6472756d6465762f706c7567696e732f736c69636b2f636f6e6669672e7262|]
+Oct 13 21:44:44 - u90889285 close "/drumdev/plugins/slick/ajax-loader.gif" bytes read 0 written 4178
+Oct 13 21:44:44 - u90889285 [10.71.51.39|put|0|4178|0|0|0|2f6472756d6465762f706c7567696e732f736c69636b2f616a61782d6c6f616465722e676966|]
+Oct 13 21:44:44 - u90889285 sent status No such file
+Oct 13 21:44:44 - u90889285 sent status No such file
+Oct 13 21:44:44 - u90889285 open "/drumdev/plugins/slick/slick-theme.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:44 - u90889285 open "/drumdev/plugins/slick/slick.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:44 - u90889285 close "/drumdev/plugins/slick/slick-theme.css" bytes read 0 written 3146
+Oct 13 21:44:44 - u90889285 [10.71.51.39|put|0|3146|0|0|0|2f6472756d6465762f706c7567696e732f736c69636b2f736c69636b2d7468656d652e637373|]
+Oct 13 21:44:44 - u90889285 sent status No such file
+Oct 13 21:44:44 - u90889285 close "/drumdev/plugins/slick/slick.css" bytes read 0 written 1729
+Oct 13 21:44:44 - u90889285 [10.71.51.39|put|0|1729|0|0|0|2f6472756d6465762f706c7567696e732f736c69636b2f736c69636b2e637373|]
+Oct 13 21:44:44 - u90889285 open "/drumdev/plugins/slick/slick.min.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:44 - u90889285 sent status No such file
+Oct 13 21:44:45 - u90889285 sent status No such file
+Oct 13 21:44:45 - u90889285 sent status No such file
+Oct 13 21:44:45 - u90889285 close "/drumdev/plugins/slick/slick.min.js" bytes read 0 written 41953
+Oct 13 21:44:45 - u90889285 [10.71.51.39|put|1|41953|0|0|0|2f6472756d6465762f706c7567696e732f736c69636b2f736c69636b2e6d696e2e6a73|]
+Oct 13 21:44:45 - u90889285 mkdir name "/drumdev/plugins/slick/fonts" mode 0777
+Oct 13 21:44:45 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f6472756d6465762f706c7567696e732f736c69636b2f666f6e7473|]
+Oct 13 21:44:46 - u90889285 sent status No such file
+Oct 13 21:44:46 - u90889285 sent status No such file
+Oct 13 21:44:46 - u90889285 open "/drumdev/plugins/slick/fonts/slick.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:46 - u90889285 open "/drumdev/plugins/slick/fonts/slick.eot" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:46 - u90889285 close "/drumdev/plugins/slick/fonts/slick.svg" bytes read 0 written 2152
+Oct 13 21:44:46 - u90889285 [10.71.51.39|put|0|2152|0|0|0|2f6472756d6465762f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e737667|]
+Oct 13 21:44:46 - u90889285 close "/drumdev/plugins/slick/fonts/slick.eot" bytes read 0 written 2048
+Oct 13 21:44:46 - u90889285 [10.71.51.39|put|0|2048|0|0|0|2f6472756d6465762f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e656f74|]
+Oct 13 21:44:46 - u90889285 sent status No such file
+Oct 13 21:44:46 - u90889285 sent status No such file
+Oct 13 21:44:46 - u90889285 open "/drumdev/plugins/slick/fonts/slick.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:46 - u90889285 open "/drumdev/plugins/slick/fonts/slick.woff" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 21:44:46 - u90889285 close "/drumdev/plugins/slick/fonts/slick.ttf" bytes read 0 written 1892
+Oct 13 21:44:46 - u90889285 [10.71.51.39|put|0|1892|0|0|0|2f6472756d6465762f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e747466|]
+Oct 13 21:44:47 - u90889285 close "/drumdev/plugins/slick/fonts/slick.woff" bytes read 0 written 1380
+Oct 13 21:44:47 - u90889285 [10.71.51.39|put|1|1380|0|0|0|2f6472756d6465762f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e776f6666|]
+Oct 13 21:45:47 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 13 21:45:47 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 13 21:45:47 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 13 21:45:47 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 13 21:45:50 211.224.192.167 u90889285 sent status No such file
+Oct 13 21:46:02 211.224.192.167 u90889285 sent status No such file
+Oct 13 21:46:02 10.71.51.39 u90889285 Connection from 10.71.51.39 port 33464 on 217.160.62.53 port 22
+Oct 13 21:46:03 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 33464 ssh2
+Oct 13 21:46:02 10.71.51.39 u90889285 Connection from 10.71.51.39 port 33468 on 217.160.62.53 port 22
+Oct 13 21:46:03 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 33468 ssh2
+Oct 13 21:46:03 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 13 21:46:03 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 13 21:46:04 - u90889285 open "/logs/sftp.log" flags READ mode 0666
+Oct 13 21:46:04 - u90889285 open "/logs/access.log.41.5" flags READ mode 0666
+Oct 13 21:46:05 - u90889285 close "/logs/access.log.41.5" bytes read 10333 written 0
+Oct 13 21:46:05 - u90889285 [10.71.51.39|get|1|10333|0|0|0|2f6c6f67732f6163636573732e6c6f672e34312e35|]
+Oct 13 21:46:05 - u90889285 close "/logs/sftp.log" bytes read 22051 written 0
+Oct 13 21:46:05 - u90889285 [10.71.51.39|get|1|22051|0|0|0|2f6c6f67732f736674702e6c6f67|]
+Oct 13 21:46:05 - u90889285 open "/logs/info.py" flags READ mode 0666
+Oct 13 21:46:06 - u90889285 open "/logs/info.php5" flags READ mode 0666
+Oct 13 21:46:06 - u90889285 close "/logs/info.py" bytes read 6384 written 0
+Oct 13 21:46:06 - u90889285 [10.71.51.39|get|1|6384|0|0|0|2f6c6f67732f696e666f2e7079|]
+Oct 13 21:46:06 - u90889285 open "/logs/info.pl" flags READ mode 0666
+Oct 13 21:46:07 - u90889285 close "/logs/info.pl" bytes read 4176 written 0
+Oct 13 21:46:07 - u90889285 [10.71.51.39|get|1|4176|0|0|0|2f6c6f67732f696e666f2e706c|]
+Oct 13 21:46:07 - u90889285 close "/logs/info.php5" bytes read 21 written 0
+Oct 13 21:46:07 - u90889285 [10.71.51.39|get|1|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+Oct 13 21:46:07 - u90889285 open "/logs/.htaccess" flags READ mode 0666
+Oct 13 21:46:07 - u90889285 open "/logs/access.log.41.5" flags READ mode 0666
+Oct 13 21:46:08 - u90889285 close "/logs/.htaccess" bytes read 267 written 0
+Oct 13 21:46:08 - u90889285 [10.71.51.39|get|1|267|0|0|0|2f6c6f67732f2e6874616363657373|]
+Oct 13 21:46:08 - u90889285 close "/logs/access.log.41.5" bytes read 10333 written 0
+Oct 13 21:46:08 - u90889285 [10.71.51.39|get|1|10333|0|0|0|2f6c6f67732f6163636573732e6c6f672e34312e35|]
+Oct 13 21:47:08 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 13 21:47:08 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 13 21:47:08 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 13 21:47:08 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 13 21:47:13 211.224.192.167 u90889285 remove name "/logs/access.log.current"
+Oct 13 21:47:13 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Oct 13 21:47:13 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:13 211.224.192.167 u90889285 remove name "/logs/access.log.41.5"
+Oct 13 21:47:13 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e34312e35|]
+Oct 13 21:47:13 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:13 211.224.192.167 u90889285 remove name "/logs/sftp.log"
+Oct 13 21:47:13 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f736674702e6c6f67|]
+Oct 13 21:47:13 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:13 211.224.192.167 u90889285 remove name "/logs/info.py"
+Oct 13 21:47:13 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f696e666f2e7079|]
+Oct 13 21:47:13 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:13 211.224.192.167 u90889285 remove name "/logs/info.php5"
+Oct 13 21:47:13 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f696e666f2e70687035|]
+Oct 13 21:47:13 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:13 211.224.192.167 u90889285 remove name "/logs/info.pl"
+Oct 13 21:47:13 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f696e666f2e706c|]
+Oct 13 21:47:13 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:13 211.224.192.167 u90889285 remove name "/logs/.htaccess"
+Oct 13 21:47:13 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f2e6874616363657373|]
+Oct 13 21:47:13 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:14 211.224.192.167 u90889285 rmdir name "/logs/traffic.html"
+Oct 13 21:47:14 211.224.192.167 u90889285 [10.71.51.39|rmdir|0|0|0|0|13|2f6c6f67732f747261666669632e68746d6c|]
+Oct 13 21:47:14 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:14 211.224.192.167 u90889285 rmdir name "/logs"
+Oct 13 21:47:14 211.224.192.167 u90889285 [10.71.51.39|rmdir|0|0|0|0|39|2f6c6f6773|]
+Oct 13 21:47:14 211.224.192.167 u90889285 sent status Failure
+Oct 13 21:47:27 211.224.192.167 u90889285 remove name "/logs/access.log.current"
+Oct 13 21:47:27 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+Oct 13 21:47:27 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:27 211.224.192.167 u90889285 remove name "/logs/access.log.41.5"
+Oct 13 21:47:27 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f6163636573732e6c6f672e34312e35|]
+Oct 13 21:47:27 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:27 211.224.192.167 u90889285 remove name "/logs/sftp.log"
+Oct 13 21:47:27 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f736674702e6c6f67|]
+Oct 13 21:47:27 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:27 211.224.192.167 u90889285 remove name "/logs/info.py"
+Oct 13 21:47:27 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f696e666f2e7079|]
+Oct 13 21:47:27 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:27 211.224.192.167 u90889285 remove name "/logs/info.php5"
+Oct 13 21:47:27 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f696e666f2e70687035|]
+Oct 13 21:47:27 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:27 211.224.192.167 u90889285 remove name "/logs/info.pl"
+Oct 13 21:47:27 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f696e666f2e706c|]
+Oct 13 21:47:27 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:27 211.224.192.167 u90889285 remove name "/logs/.htaccess"
+Oct 13 21:47:27 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|13|2f6c6f67732f2e6874616363657373|]
+Oct 13 21:47:27 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:28 211.224.192.167 u90889285 rmdir name "/logs/traffic.html"
+Oct 13 21:47:28 211.224.192.167 u90889285 [10.71.51.39|rmdir|0|0|0|0|13|2f6c6f67732f747261666669632e68746d6c|]
+Oct 13 21:47:28 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 21:47:28 211.224.192.167 u90889285 rmdir name "/logs"
+Oct 13 21:47:28 211.224.192.167 u90889285 [10.71.51.39|rmdir|0|0|0|0|39|2f6c6f6773|]
+Oct 13 21:47:28 211.224.192.167 u90889285 sent status Failure
+Oct 13 22:03:37 211.224.192.167 u90889285 sent status No such file
+Oct 13 22:03:37 211.224.192.167 u90889285 rename old "/drumdev" new "/DrumDev"
+Oct 13 22:03:37 211.224.192.167 u90889285 [10.71.51.39|rename|0|0|0|0|0|2f6472756d646576|2f4472756d446576]
+Oct 13 22:12:48 10.71.51.39 u90889285 Connection from 10.71.51.39 port 51378 on 217.160.62.53 port 22
+Oct 13 22:12:48 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 51378 ssh2
+Oct 13 22:12:48 10.71.51.39 u90889285 Connection from 10.71.51.39 port 51382 on 217.160.62.53 port 22
+Oct 13 22:12:48 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 51382 ssh2
+Oct 13 22:12:49 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 13 22:12:49 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 13 22:12:49 - u90889285 sent status No such file
+Oct 13 22:12:49 - u90889285 open "/advantajuice/.htaccess" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:12:49 - u90889285 close "/advantajuice/.htaccess" bytes read 0 written 5396
+Oct 13 22:12:49 - u90889285 [10.71.51.39|put|0|5396|0|0|0|2f616476616e74616a756963652f2e6874616363657373|]
+Oct 13 22:12:50 - u90889285 sent status No such file
+Oct 13 22:12:50 - u90889285 open "/advantajuice/robots.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:12:50 - u90889285 close "/advantajuice/robots.txt" bytes read 0 written 124
+Oct 13 22:12:50 - u90889285 [10.71.51.39|put|0|124|0|0|0|2f616476616e74616a756963652f726f626f74732e747874|]
+Oct 13 22:12:50 - u90889285 sent status No such file
+Oct 13 22:12:50 - u90889285 open "/advantajuice/Sitemap.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:12:50 - u90889285 close "/advantajuice/Sitemap.html" bytes read 0 written 334
+Oct 13 22:12:50 - u90889285 [10.71.51.39|put|0|334|0|0|0|2f616476616e74616a756963652f536974656d61702e68746d6c|]
+Oct 13 22:12:50 - u90889285 sent status No such file
+Oct 13 22:12:50 - u90889285 sent status No such file
+Oct 13 22:12:51 - u90889285 sent status No such file
+Oct 13 22:12:51 - u90889285 mkdir name "/advantajuice/css" mode 0777
+Oct 13 22:12:51 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f616476616e74616a756963652f637373|]
+Oct 13 22:12:51 - u90889285 sent status No such file
+Oct 13 22:12:51 - u90889285 open "/advantajuice/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:12:52 - u90889285 open "/advantajuice/css/combined-css.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:12:56 - u90889285 close "/advantajuice/css/combined-css.css" bytes read 0 written 139569
+Oct 13 22:12:56 - u90889285 [10.71.51.39|put|4|139569|0|0|0|2f616476616e74616a756963652f6373732f636f6d62696e65642d6373732e637373|]
+Oct 13 22:12:56 - u90889285 sent status No such file
+Oct 13 22:12:56 - u90889285 sent status No such file
+Oct 13 22:12:57 - u90889285 sent status No such file
+Oct 13 22:12:58 - u90889285 mkdir name "/advantajuice/css/fonts" mode 0777
+Oct 13 22:12:58 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f616476616e74616a756963652f6373732f666f6e7473|]
+Oct 13 22:13:00 - u90889285 sent status No such file
+Oct 13 22:13:01 - u90889285 open "/advantajuice/css/fonts/slick.eot" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:01 - u90889285 close "/advantajuice/css/fonts/slick.eot" bytes read 0 written 2048
+Oct 13 22:13:01 - u90889285 [10.71.51.39|put|0|2048|0|0|0|2f616476616e74616a756963652f6373732f666f6e74732f736c69636b2e656f74|]
+Oct 13 22:13:01 - u90889285 sent status No such file
+Oct 13 22:13:01 - u90889285 open "/advantajuice/css/fonts/slick.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:02 - u90889285 close "/advantajuice/css/fonts/slick.svg" bytes read 0 written 2152
+Oct 13 22:13:02 - u90889285 [10.71.51.39|put|1|2152|0|0|0|2f616476616e74616a756963652f6373732f666f6e74732f736c69636b2e737667|]
+Oct 13 22:13:02 - u90889285 sent status No such file
+Oct 13 22:13:02 - u90889285 open "/advantajuice/css/fonts/slick.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:03 - u90889285 close "/advantajuice/css/fonts/slick.ttf" bytes read 0 written 1892
+Oct 13 22:13:03 - u90889285 [10.71.51.39|put|1|1892|0|0|0|2f616476616e74616a756963652f6373732f666f6e74732f736c69636b2e747466|]
+Oct 13 22:13:03 - u90889285 sent status No such file
+Oct 13 22:13:04 - u90889285 open "/advantajuice/css/fonts/slick.woff" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:04 - u90889285 close "/advantajuice/index.html" bytes read 0 written 358965
+Oct 13 22:13:04 - u90889285 [10.71.51.39|put|13|358965|0|0|0|2f616476616e74616a756963652f696e6465782e68746d6c|]
+Oct 13 22:13:04 - u90889285 sent status No such file
+Oct 13 22:13:05 - u90889285 close "/advantajuice/css/fonts/slick.woff" bytes read 0 written 1380
+Oct 13 22:13:05 - u90889285 [10.71.51.39|put|1|1380|0|0|0|2f616476616e74616a756963652f6373732f666f6e74732f736c69636b2e776f6666|]
+Oct 13 22:13:05 - u90889285 sent status No such file
+Oct 13 22:13:05 - u90889285 sent status No such file
+Oct 13 22:13:05 - u90889285 mkdir name "/advantajuice/img" mode 0777
+Oct 13 22:13:05 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f616476616e74616a756963652f696d67|]
+Oct 13 22:13:06 - u90889285 sent status No such file
+Oct 13 22:13:06 - u90889285 sent status No such file
+Oct 13 22:13:06 - u90889285 open "/advantajuice/img/cctv-devices.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:06 - u90889285 open "/advantajuice/img/banner-blue-hq.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:07 - u90889285 close "/advantajuice/img/banner-blue-hq.jpg" bytes read 0 written 9185
+Oct 13 22:13:07 - u90889285 [10.71.51.39|put|1|9185|0|0|0|2f616476616e74616a756963652f696d672f62616e6e65722d626c75652d68712e6a7067|]
+Oct 13 22:13:07 - u90889285 sent status No such file
+Oct 13 22:13:08 - u90889285 open "/advantajuice/img/dd-meta-img-fb.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:08 - u90889285 close "/advantajuice/img/cctv-devices.png" bytes read 0 written 36314
+Oct 13 22:13:08 - u90889285 [10.71.51.39|put|2|36314|0|0|0|2f616476616e74616a756963652f696d672f636374762d646576696365732e706e67|]
+Oct 13 22:13:08 - u90889285 sent status No such file
+Oct 13 22:13:08 - u90889285 open "/advantajuice/img/dd-meta-img-tw.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:08 - u90889285 close "/advantajuice/img/dd-meta-img-fb.png" bytes read 0 written 4960
+Oct 13 22:13:08 - u90889285 [10.71.51.39|put|0|4960|0|0|0|2f616476616e74616a756963652f696d672f64642d6d6574612d696d672d66622e706e67|]
+Oct 13 22:13:09 - u90889285 sent status No such file
+Oct 13 22:13:09 - u90889285 close "/advantajuice/img/dd-meta-img-tw.png" bytes read 0 written 1478
+Oct 13 22:13:09 - u90889285 [10.71.51.39|put|1|1478|0|0|0|2f616476616e74616a756963652f696d672f64642d6d6574612d696d672d74772e706e67|]
+Oct 13 22:13:09 - u90889285 open "/advantajuice/img/dfb-devices.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:09 - u90889285 sent status No such file
+Oct 13 22:13:09 - u90889285 open "/advantajuice/img/dp-w.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:10 - u90889285 close "/advantajuice/img/dp-w.jpg" bytes read 0 written 7845
+Oct 13 22:13:10 - u90889285 [10.71.51.39|put|1|7845|0|0|0|2f616476616e74616a756963652f696d672f64702d772e6a7067|]
+Oct 13 22:13:10 - u90889285 sent status No such file
+Oct 13 22:13:10 - u90889285 open "/advantajuice/img/dp-z.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:10 - u90889285 close "/advantajuice/img/dfb-devices.png" bytes read 0 written 26800
+Oct 13 22:13:10 - u90889285 [10.71.51.39|put|1|26800|0|0|0|2f616476616e74616a756963652f696d672f6466622d646576696365732e706e67|]
+Oct 13 22:13:10 - u90889285 sent status No such file
+Oct 13 22:13:10 - u90889285 close "/advantajuice/img/dp-z.jpg" bytes read 0 written 9809
+Oct 13 22:13:10 - u90889285 [10.71.51.39|put|0|9809|0|0|0|2f616476616e74616a756963652f696d672f64702d7a2e6a7067|]
+Oct 13 22:13:10 - u90889285 sent status No such file
+Oct 13 22:13:10 - u90889285 open "/advantajuice/img/faq.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:10 - u90889285 open "/advantajuice/img/favicon2.ico" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:10 - u90889285 close "/advantajuice/img/faq.jpg" bytes read 0 written 14073
+Oct 13 22:13:10 - u90889285 [10.71.51.39|put|0|14073|0|0|0|2f616476616e74616a756963652f696d672f6661712e6a7067|]
+Oct 13 22:13:10 - u90889285 sent status No such file
+Oct 13 22:13:11 - u90889285 close "/advantajuice/img/favicon2.ico" bytes read 0 written 1150
+Oct 13 22:13:11 - u90889285 [10.71.51.39|put|1|1150|0|0|0|2f616476616e74616a756963652f696d672f66617669636f6e322e69636f|]
+Oct 13 22:13:11 - u90889285 sent status No such file
+Oct 13 22:13:11 - u90889285 open "/advantajuice/img/fb.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:11 - u90889285 open "/advantajuice/img/first.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:11 - u90889285 close "/advantajuice/img/fb.svg" bytes read 0 written 430
+Oct 13 22:13:11 - u90889285 [10.71.51.39|put|0|430|0|0|0|2f616476616e74616a756963652f696d672f66622e737667|]
+Oct 13 22:13:11 - u90889285 sent status No such file
+Oct 13 22:13:11 - u90889285 open "/advantajuice/img/gh.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:11 - u90889285 close "/advantajuice/img/gh.svg" bytes read 0 written 839
+Oct 13 22:13:11 - u90889285 [10.71.51.39|put|0|839|0|0|0|2f616476616e74616a756963652f696d672f67682e737667|]
+Oct 13 22:13:11 - u90889285 sent status No such file
+Oct 13 22:13:11 - u90889285 open "/advantajuice/img/hello.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:12 - u90889285 close "/advantajuice/img/hello.jpg" bytes read 0 written 9469
+Oct 13 22:13:12 - u90889285 [10.71.51.39|put|1|9469|0|0|0|2f616476616e74616a756963652f696d672f68656c6c6f2e6a7067|]
+Oct 13 22:13:12 - u90889285 sent status No such file
+Oct 13 22:13:12 - u90889285 open "/advantajuice/img/news.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:12 - u90889285 close "/advantajuice/img/news.png" bytes read 0 written 108
+Oct 13 22:13:12 - u90889285 [10.71.51.39|put|0|108|0|0|0|2f616476616e74616a756963652f696d672f6e6577732e706e67|]
+Oct 13 22:13:12 - u90889285 sent status No such file
+Oct 13 22:13:12 - u90889285 close "/advantajuice/img/first.jpg" bytes read 0 written 21895
+Oct 13 22:13:12 - u90889285 [10.71.51.39|put|1|21895|0|0|0|2f616476616e74616a756963652f696d672f66697273742e6a7067|]
+Oct 13 22:13:12 - u90889285 sent status No such file
+Oct 13 22:13:12 - u90889285 open "/advantajuice/img/struggle3.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:13 - u90889285 open "/advantajuice/img/tr-devices.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:13 - u90889285 close "/advantajuice/img/struggle3.jpg" bytes read 0 written 9861
+Oct 13 22:13:13 - u90889285 [10.71.51.39|put|1|9861|0|0|0|2f616476616e74616a756963652f696d672f7374727567676c65332e6a7067|]
+Oct 13 22:13:13 - u90889285 sent status No such file
+Oct 13 22:13:13 - u90889285 open "/advantajuice/img/tw.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:13 - u90889285 close "/advantajuice/img/tr-devices.png" bytes read 0 written 31579
+Oct 13 22:13:13 - u90889285 [10.71.51.39|put|0|31579|0|0|0|2f616476616e74616a756963652f696d672f74722d646576696365732e706e67|]
+Oct 13 22:13:13 - u90889285 close "/advantajuice/img/tw.svg" bytes read 0 written 684
+Oct 13 22:13:13 - u90889285 [10.71.51.39|put|0|684|0|0|0|2f616476616e74616a756963652f696d672f74772e737667|]
+Oct 13 22:13:13 - u90889285 sent status No such file
+Oct 13 22:13:13 - u90889285 sent status No such file
+Oct 13 22:13:13 - u90889285 open "/advantajuice/img/w-cert.jpg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:13 - u90889285 open "/advantajuice/img/wp.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:13 - u90889285 close "/advantajuice/img/w-cert.jpg" bytes read 0 written 5187
+Oct 13 22:13:13 - u90889285 [10.71.51.39|put|0|5187|0|0|0|2f616476616e74616a756963652f696d672f772d636572742e6a7067|]
+Oct 13 22:13:14 - u90889285 close "/advantajuice/img/wp.svg" bytes read 0 written 1061
+Oct 13 22:13:14 - u90889285 [10.71.51.39|put|0|1061|0|0|0|2f616476616e74616a756963652f696d672f77702e737667|]
+Oct 13 22:13:14 - u90889285 sent status No such file
+Oct 13 22:13:14 - u90889285 sent status No such file
+Oct 13 22:13:14 - u90889285 sent status No such file
+Oct 13 22:13:14 - u90889285 sent status No such file
+Oct 13 22:13:14 - u90889285 sent status No such file
+Oct 13 22:13:14 - u90889285 sent status No such file
+Oct 13 22:13:14 - u90889285 sent status No such file
+Oct 13 22:13:14 - u90889285 sent status No such file
+Oct 13 22:13:14 - u90889285 mkdir name "/advantajuice/js" mode 0777
+Oct 13 22:13:14 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f616476616e74616a756963652f6a73|]
+Oct 13 22:13:14 - u90889285 sent status No such file
+Oct 13 22:13:14 - u90889285 mkdir name "/advantajuice/plugins" mode 0777
+Oct 13 22:13:14 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f616476616e74616a756963652f706c7567696e73|]
+Oct 13 22:13:14 - u90889285 sent status No such file
+Oct 13 22:13:15 - u90889285 sent status No such file
+Oct 13 22:13:15 - u90889285 mkdir name "/advantajuice/plugins/slick" mode 0777
+Oct 13 22:13:15 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b|]
+Oct 13 22:13:15 - u90889285 open "/advantajuice/js/combined-js.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:16 - u90889285 sent status No such file
+Oct 13 22:13:17 - u90889285 open "/advantajuice/plugins/slick/ajax-loader.gif" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:17 - u90889285 close "/advantajuice/plugins/slick/ajax-loader.gif" bytes read 0 written 4178
+Oct 13 22:13:17 - u90889285 [10.71.51.39|put|0|4178|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f616a61782d6c6f616465722e676966|]
+Oct 13 22:13:17 - u90889285 sent status No such file
+Oct 13 22:13:17 - u90889285 open "/advantajuice/plugins/slick/config.rb" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:17 - u90889285 close "/advantajuice/plugins/slick/config.rb" bytes read 0 written 161
+Oct 13 22:13:17 - u90889285 [10.71.51.39|put|0|161|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f636f6e6669672e7262|]
+Oct 13 22:13:17 - u90889285 sent status No such file
+Oct 13 22:13:17 - u90889285 open "/advantajuice/plugins/slick/slick-theme.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:18 - u90889285 close "/advantajuice/plugins/slick/slick-theme.css" bytes read 0 written 3146
+Oct 13 22:13:18 - u90889285 [10.71.51.39|put|1|3146|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f736c69636b2d7468656d652e637373|]
+Oct 13 22:13:18 - u90889285 sent status No such file
+Oct 13 22:13:18 - u90889285 open "/advantajuice/plugins/slick/slick.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:18 - u90889285 close "/advantajuice/plugins/slick/slick.css" bytes read 0 written 1729
+Oct 13 22:13:18 - u90889285 [10.71.51.39|put|0|1729|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f736c69636b2e637373|]
+Oct 13 22:13:18 - u90889285 sent status No such file
+Oct 13 22:13:18 - u90889285 open "/advantajuice/plugins/slick/slick.min.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:19 - u90889285 close "/advantajuice/plugins/slick/slick.min.js" bytes read 0 written 41953
+Oct 13 22:13:19 - u90889285 [10.71.51.39|put|1|41953|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f736c69636b2e6d696e2e6a73|]
+Oct 13 22:13:20 - u90889285 sent status No such file
+Oct 13 22:13:20 - u90889285 sent status No such file
+Oct 13 22:13:20 - u90889285 close "/advantajuice/js/combined-js.js" bytes read 0 written 148326
+Oct 13 22:13:20 - u90889285 [10.71.51.39|put|5|148326|0|0|0|2f616476616e74616a756963652f6a732f636f6d62696e65642d6a732e6a73|]
+Oct 13 22:13:21 - u90889285 sent status No such file
+Oct 13 22:13:21 - u90889285 mkdir name "/advantajuice/plugins/slick/fonts" mode 0777
+Oct 13 22:13:21 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f666f6e7473|]
+Oct 13 22:13:22 - u90889285 sent status No such file
+Oct 13 22:13:23 - u90889285 sent status No such file
+Oct 13 22:13:23 - u90889285 open "/advantajuice/plugins/slick/fonts/slick.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:23 - u90889285 open "/advantajuice/plugins/slick/fonts/slick.eot" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:23 - u90889285 close "/advantajuice/plugins/slick/fonts/slick.svg" bytes read 0 written 2152
+Oct 13 22:13:23 - u90889285 [10.71.51.39|put|0|2152|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e737667|]
+Oct 13 22:13:23 - u90889285 close "/advantajuice/plugins/slick/fonts/slick.eot" bytes read 0 written 2048
+Oct 13 22:13:23 - u90889285 [10.71.51.39|put|0|2048|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e656f74|]
+Oct 13 22:13:23 - u90889285 sent status No such file
+Oct 13 22:13:23 - u90889285 sent status No such file
+Oct 13 22:13:23 - u90889285 open "/advantajuice/plugins/slick/fonts/slick.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:24 - u90889285 open "/advantajuice/plugins/slick/fonts/slick.woff" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:13:24 - u90889285 close "/advantajuice/plugins/slick/fonts/slick.ttf" bytes read 0 written 1892
+Oct 13 22:13:24 - u90889285 [10.71.51.39|put|1|1892|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e747466|]
+Oct 13 22:13:24 - u90889285 close "/advantajuice/plugins/slick/fonts/slick.woff" bytes read 0 written 1380
+Oct 13 22:13:24 - u90889285 [10.71.51.39|put|0|1380|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e776f6666|]
+Oct 13 22:14:24 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 13 22:14:24 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 13 22:14:24 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 13 22:14:24 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 13 22:14:31 211.224.192.167 u90889285 remove name "/advantajuice/.htaccess"
+Oct 13 22:14:31 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f2e6874616363657373|]
+Oct 13 22:14:31 211.224.192.167 u90889285 remove name "/advantajuice/robots.txt"
+Oct 13 22:14:31 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f726f626f74732e747874|]
+Oct 13 22:14:31 211.224.192.167 u90889285 remove name "/advantajuice/Sitemap.html"
+Oct 13 22:14:31 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f536974656d61702e68746d6c|]
+Oct 13 22:14:32 211.224.192.167 u90889285 remove name "/advantajuice/css/combined-css.css"
+Oct 13 22:14:32 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f6373732f636f6d62696e65642d6373732e637373|]
+Oct 13 22:14:32 211.224.192.167 u90889285 remove name "/advantajuice/css/fonts/slick.woff"
+Oct 13 22:14:32 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f6373732f666f6e74732f736c69636b2e776f6666|]
+Oct 13 22:14:32 211.224.192.167 u90889285 remove name "/advantajuice/css/fonts/slick.ttf"
+Oct 13 22:14:32 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f6373732f666f6e74732f736c69636b2e747466|]
+Oct 13 22:14:33 211.224.192.167 u90889285 remove name "/advantajuice/css/fonts/slick.svg"
+Oct 13 22:14:33 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f6373732f666f6e74732f736c69636b2e737667|]
+Oct 13 22:14:33 211.224.192.167 u90889285 remove name "/advantajuice/css/fonts/slick.eot"
+Oct 13 22:14:33 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f6373732f666f6e74732f736c69636b2e656f74|]
+Oct 13 22:14:33 211.224.192.167 u90889285 rmdir name "/advantajuice/css/fonts"
+Oct 13 22:14:33 211.224.192.167 u90889285 [10.71.51.39|rmdir|0|0|0|0|0|2f616476616e74616a756963652f6373732f666f6e7473|]
+Oct 13 22:14:33 211.224.192.167 u90889285 rmdir name "/advantajuice/css"
+Oct 13 22:14:33 211.224.192.167 u90889285 [10.71.51.39|rmdir|0|0|0|0|0|2f616476616e74616a756963652f637373|]
+Oct 13 22:14:34 211.224.192.167 u90889285 remove name "/advantajuice/js/combined-js.js"
+Oct 13 22:14:34 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f6a732f636f6d62696e65642d6a732e6a73|]
+Oct 13 22:14:34 211.224.192.167 u90889285 rmdir name "/advantajuice/js"
+Oct 13 22:14:34 211.224.192.167 u90889285 [10.71.51.39|rmdir|0|0|0|0|0|2f616476616e74616a756963652f6a73|]
+Oct 13 22:15:01 211.224.192.167 u90889285 remove name "/DrumDev/Sitemap.html"
+Oct 13 22:15:01 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f4472756d4465762f536974656d61702e68746d6c|]
+Oct 13 22:15:22 10.71.51.39 u90889285 Connection from 10.71.51.39 port 17066 on 217.160.62.53 port 22
+Oct 13 22:15:23 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 17066 ssh2
+Oct 13 22:15:23 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 13 22:15:23 - u90889285 sent status No such file
+Oct 13 22:15:23 - u90889285 open "/DrumDev/Sitemap.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:15:24 - u90889285 close "/DrumDev/Sitemap.html" bytes read 0 written 334
+Oct 13 22:15:24 - u90889285 [10.71.51.39|put|1|334|0|0|0|2f4472756d4465762f536974656d61702e68746d6c|]
+Oct 13 22:15:27 211.224.192.167 u90889285 remove name "/DrumDev/.htaccess"
+Oct 13 22:15:27 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f4472756d4465762f2e6874616363657373|]
+Oct 13 22:15:39 211.224.192.167 u90889285 remove name "/advantajuice/index.html"
+Oct 13 22:15:39 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696e6465782e68746d6c|]
+Oct 13 22:15:39 211.224.192.167 u90889285 remove name "/advantajuice/img/wp.svg"
+Oct 13 22:15:39 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f77702e737667|]
+Oct 13 22:15:40 211.224.192.167 u90889285 remove name "/advantajuice/img/w-cert.jpg"
+Oct 13 22:15:40 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f772d636572742e6a7067|]
+Oct 13 22:15:40 211.224.192.167 u90889285 remove name "/advantajuice/img/tw.svg"
+Oct 13 22:15:40 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f74772e737667|]
+Oct 13 22:15:40 211.224.192.167 u90889285 remove name "/advantajuice/img/tr-devices.png"
+Oct 13 22:15:40 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f74722d646576696365732e706e67|]
+Oct 13 22:15:40 211.224.192.167 u90889285 remove name "/advantajuice/img/struggle3.jpg"
+Oct 13 22:15:40 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f7374727567676c65332e6a7067|]
+Oct 13 22:15:40 211.224.192.167 u90889285 remove name "/advantajuice/img/news.png"
+Oct 13 22:15:40 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f6e6577732e706e67|]
+Oct 13 22:15:40 211.224.192.167 u90889285 remove name "/advantajuice/img/hello.jpg"
+Oct 13 22:15:40 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f68656c6c6f2e6a7067|]
+Oct 13 22:15:41 211.224.192.167 u90889285 remove name "/advantajuice/img/gh.svg"
+Oct 13 22:15:41 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f67682e737667|]
+Oct 13 22:15:41 211.224.192.167 u90889285 remove name "/advantajuice/img/first.jpg"
+Oct 13 22:15:41 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f66697273742e6a7067|]
+Oct 13 22:15:41 211.224.192.167 u90889285 remove name "/advantajuice/img/fb.svg"
+Oct 13 22:15:41 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f66622e737667|]
+Oct 13 22:15:41 211.224.192.167 u90889285 remove name "/advantajuice/img/favicon2.ico"
+Oct 13 22:15:41 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f66617669636f6e322e69636f|]
+Oct 13 22:15:41 211.224.192.167 u90889285 remove name "/advantajuice/img/faq.jpg"
+Oct 13 22:15:41 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f6661712e6a7067|]
+Oct 13 22:15:41 211.224.192.167 u90889285 remove name "/advantajuice/img/dp-z.jpg"
+Oct 13 22:15:41 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f64702d7a2e6a7067|]
+Oct 13 22:15:41 211.224.192.167 u90889285 remove name "/advantajuice/img/dp-w.jpg"
+Oct 13 22:15:41 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f64702d772e6a7067|]
+Oct 13 22:15:42 211.224.192.167 u90889285 remove name "/advantajuice/img/dfb-devices.png"
+Oct 13 22:15:42 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f6466622d646576696365732e706e67|]
+Oct 13 22:15:42 211.224.192.167 u90889285 remove name "/advantajuice/img/dd-meta-img-tw.png"
+Oct 13 22:15:42 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f64642d6d6574612d696d672d74772e706e67|]
+Oct 13 22:15:42 211.224.192.167 u90889285 remove name "/advantajuice/img/dd-meta-img-fb.png"
+Oct 13 22:15:42 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f64642d6d6574612d696d672d66622e706e67|]
+Oct 13 22:15:42 211.224.192.167 u90889285 remove name "/advantajuice/img/banner-blue-hq.jpg"
+Oct 13 22:15:42 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f62616e6e65722d626c75652d68712e6a7067|]
+Oct 13 22:15:42 211.224.192.167 u90889285 remove name "/advantajuice/img/cctv-devices.png"
+Oct 13 22:15:42 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f696d672f636374762d646576696365732e706e67|]
+Oct 13 22:15:42 211.224.192.167 u90889285 rmdir name "/advantajuice/img"
+Oct 13 22:15:42 211.224.192.167 u90889285 [10.71.51.39|rmdir|0|0|0|0|0|2f616476616e74616a756963652f696d67|]
+Oct 13 22:15:44 211.224.192.167 u90889285 remove name "/advantajuice/plugins/slick/slick.min.js"
+Oct 13 22:15:44 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f736c69636b2e6d696e2e6a73|]
+Oct 13 22:15:44 211.224.192.167 u90889285 remove name "/advantajuice/plugins/slick/slick.css"
+Oct 13 22:15:44 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f736c69636b2e637373|]
+Oct 13 22:15:44 211.224.192.167 u90889285 remove name "/advantajuice/plugins/slick/slick-theme.css"
+Oct 13 22:15:44 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f736c69636b2d7468656d652e637373|]
+Oct 13 22:15:45 211.224.192.167 u90889285 remove name "/advantajuice/plugins/slick/config.rb"
+Oct 13 22:15:45 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f636f6e6669672e7262|]
+Oct 13 22:15:45 211.224.192.167 u90889285 remove name "/advantajuice/plugins/slick/ajax-loader.gif"
+Oct 13 22:15:45 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f616a61782d6c6f616465722e676966|]
+Oct 13 22:15:46 211.224.192.167 u90889285 remove name "/advantajuice/plugins/slick/fonts/slick.woff"
+Oct 13 22:15:46 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e776f6666|]
+Oct 13 22:15:46 211.224.192.167 u90889285 remove name "/advantajuice/plugins/slick/fonts/slick.ttf"
+Oct 13 22:15:46 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e747466|]
+Oct 13 22:15:46 211.224.192.167 u90889285 remove name "/advantajuice/plugins/slick/fonts/slick.eot"
+Oct 13 22:15:46 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e656f74|]
+Oct 13 22:15:46 211.224.192.167 u90889285 remove name "/advantajuice/plugins/slick/fonts/slick.svg"
+Oct 13 22:15:46 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e737667|]
+Oct 13 22:15:46 211.224.192.167 u90889285 rmdir name "/advantajuice/plugins/slick/fonts"
+Oct 13 22:15:46 211.224.192.167 u90889285 [10.71.51.39|rmdir|0|0|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b2f666f6e7473|]
+Oct 13 22:15:46 211.224.192.167 u90889285 rmdir name "/advantajuice/plugins/slick"
+Oct 13 22:15:46 211.224.192.167 u90889285 [10.71.51.39|rmdir|0|0|0|0|0|2f616476616e74616a756963652f706c7567696e732f736c69636b|]
+Oct 13 22:15:47 211.224.192.167 u90889285 rmdir name "/advantajuice/plugins"
+Oct 13 22:15:47 211.224.192.167 u90889285 [10.71.51.39|rmdir|0|0|0|0|0|2f616476616e74616a756963652f706c7567696e73|]
+Oct 13 22:15:51 - u90889285 sent status No such file
+Oct 13 22:15:51 - u90889285 open "/advantajuice/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:15:51 - u90889285 close "/advantajuice/index.html" bytes read 0 written 180
+Oct 13 22:15:51 - u90889285 [10.71.51.39|put|0|180|0|0|0|2f616476616e74616a756963652f696e6465782e68746d6c|]
+Oct 13 22:16:30 - u90889285 sent status No such file
+Oct 13 22:16:30 - u90889285 open "/.htaccess" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:16:30 - u90889285 close "/.htaccess" bytes read 0 written 5396
+Oct 13 22:16:30 - u90889285 [10.71.51.39|put|0|5396|0|0|0|2f2e6874616363657373|]
+Oct 13 22:16:41 211.224.192.167 u90889285 remove name "/.htaccess"
+Oct 13 22:16:41 211.224.192.167 u90889285 [10.71.51.39|rm|0|0|0|0|0|2f2e6874616363657373|]
+Oct 13 22:17:06 211.224.192.167 u90889285 sent status No such file
+Oct 13 22:17:07 211.224.192.167 u90889285 rename old "/logs/.htaccess" new "/logs/.htaccess-orig"
+Oct 13 22:17:07 211.224.192.167 u90889285 [10.71.51.39|rename|0|0|0|0|13|2f6c6f67732f2e6874616363657373|2f6c6f67732f2e68746163636573732d6f726967]
+Oct 13 22:17:07 211.224.192.167 u90889285 sent status Permission denied
+Oct 13 22:17:14 - u90889285 open "/logs/.htaccess" flags READ mode 0666
+Oct 13 22:17:15 - u90889285 close "/logs/.htaccess" bytes read 267 written 0
+Oct 13 22:17:15 - u90889285 [10.71.51.39|get|1|267|0|0|0|2f6c6f67732f2e6874616363657373|]
+Oct 13 22:17:21 - u90889285 open "/logs/.htaccess" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:17:21 - u90889285 sent status Permission denied
+Oct 13 22:17:23 - u90889285 open "/logs/.htaccess" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:17:23 - u90889285 sent status Permission denied
+Oct 13 22:17:29 - u90889285 open "/logs/.htaccess" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 13 22:17:29 - u90889285 sent status Permission denied
+Oct 13 22:18:29 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 13 22:18:29 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 13 22:20:16 211.224.192.167 u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 13 22:20:16 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 14 14:15:55 10.71.51.39 u90889285 Connection from 10.71.51.39 port 42200 on 217.160.62.53 port 22
+Oct 14 14:16:07 10.71.51.39 u90889285 Failed password for u90889285 from 10.71.51.39 port 42200 ssh2
+Oct 14 14:16:52 10.71.51.39 u90889285 Connection from 10.71.51.39 port 33628 on 217.160.62.53 port 22
+Oct 14 14:16:56 10.71.51.39 u90889285 Failed password for u90889285 from 10.71.51.39 port 33628 ssh2
+Oct 14 14:17:57 10.71.51.39 u90889285 Connection from 10.71.51.39 port 32624 on 217.160.62.53 port 22
+Oct 14 14:18:08 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 32624 ssh2
+Oct 14 14:18:08 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 14 14:19:06 10.71.51.39 u90889285 Connection from 10.71.51.39 port 34874 on 217.160.62.53 port 22
+Oct 14 14:19:07 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 34874 ssh2
+Oct 14 14:19:07 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 14 14:19:12 - u90889285 open "/DrumDev/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 14 14:19:25 - u90889285 close "/DrumDev/index.html" bytes read 0 written 358686
+Oct 14 14:19:25 - u90889285 [10.71.51.39|put|13|358686|0|0|0|2f4472756d4465762f696e6465782e68746d6c|]
+Oct 14 14:20:25 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 14 14:20:25 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 14 14:21:26 10.71.51.39 u90889285 Connection from 10.71.51.39 port 35530 on 217.160.62.53 port 22
+Oct 14 14:21:27 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 35530 ssh2
+Oct 14 14:21:26 10.71.51.39 u90889285 Connection from 10.71.51.39 port 35516 on 217.160.62.53 port 22
+Oct 14 14:21:27 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 35516 ssh2
+Oct 14 14:21:32 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 14 14:21:32 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 14 14:21:36 - u90889285 open "/DrumDev/plugins/slick/fonts/slick.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 14 14:21:36 - u90889285 close "/DrumDev/plugins/slick/fonts/slick.svg" bytes read 0 written 2152
+Oct 14 14:21:36 - u90889285 [10.71.51.39|put|0|2152|0|0|0|2f4472756d4465762f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e737667|]
+Oct 14 14:21:40 - u90889285 open "/DrumDev/plugins/slick/fonts/slick.eot" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 14 14:21:40 - u90889285 close "/DrumDev/plugins/slick/fonts/slick.eot" bytes read 0 written 2048
+Oct 14 14:21:40 - u90889285 [10.71.51.39|put|0|2048|0|0|0|2f4472756d4465762f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e656f74|]
+Oct 14 14:21:41 - u90889285 open "/DrumDev/plugins/slick/fonts/slick.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 14 14:21:41 - u90889285 close "/DrumDev/plugins/slick/fonts/slick.ttf" bytes read 0 written 1892
+Oct 14 14:21:41 - u90889285 [10.71.51.39|put|0|1892|0|0|0|2f4472756d4465762f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e747466|]
+Oct 14 14:21:42 - u90889285 open "/DrumDev/plugins/slick/fonts/slick.woff" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 14 14:21:42 - u90889285 close "/DrumDev/plugins/slick/fonts/slick.woff" bytes read 0 written 1380
+Oct 14 14:21:42 - u90889285 [10.71.51.39|put|0|1380|0|0|0|2f4472756d4465762f706c7567696e732f736c69636b2f666f6e74732f736c69636b2e776f6666|]
+Oct 14 14:22:00 - u90889285 remove name "/DrumDev/js/combined-js.js"
+Oct 14 14:22:00 - u90889285 [10.71.51.39|rm|0|0|0|0|0|2f4472756d4465762f6a732f636f6d62696e65642d6a732e6a73|]
+Oct 14 14:22:01 - u90889285 rmdir name "/DrumDev/js"
+Oct 14 14:22:01 - u90889285 [10.71.51.39|rmdir|0|0|0|0|0|2f4472756d4465762f6a73|]
+Oct 14 14:22:06 - u90889285 remove name "/DrumDev/css/combined-css.css"
+Oct 14 14:22:06 - u90889285 [10.71.51.39|rm|0|0|0|0|0|2f4472756d4465762f6373732f636f6d62696e65642d6373732e637373|]
+Oct 14 14:22:08 - u90889285 remove name "/DrumDev/css/fonts/slick.woff"
+Oct 14 14:22:08 - u90889285 [10.71.51.39|rm|0|0|0|0|0|2f4472756d4465762f6373732f666f6e74732f736c69636b2e776f6666|]
+Oct 14 14:22:08 - u90889285 remove name "/DrumDev/css/fonts/slick.ttf"
+Oct 14 14:22:08 - u90889285 [10.71.51.39|rm|0|0|0|0|0|2f4472756d4465762f6373732f666f6e74732f736c69636b2e747466|]
+Oct 14 14:22:09 - u90889285 remove name "/DrumDev/css/fonts/slick.eot"
+Oct 14 14:22:09 - u90889285 [10.71.51.39|rm|0|0|0|0|0|2f4472756d4465762f6373732f666f6e74732f736c69636b2e656f74|]
+Oct 14 14:22:10 - u90889285 remove name "/DrumDev/css/fonts/slick.svg"
+Oct 14 14:22:10 - u90889285 [10.71.51.39|rm|0|0|0|0|0|2f4472756d4465762f6373732f666f6e74732f736c69636b2e737667|]
+Oct 14 14:22:10 - u90889285 rmdir name "/DrumDev/css/fonts"
+Oct 14 14:22:10 - u90889285 [10.71.51.39|rmdir|0|0|0|0|0|2f4472756d4465762f6373732f666f6e7473|]
+Oct 14 14:22:10 - u90889285 rmdir name "/DrumDev/css"
+Oct 14 14:22:10 - u90889285 [10.71.51.39|rmdir|0|0|0|0|0|2f4472756d4465762f637373|]
+Oct 14 14:22:41 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 14 14:22:43 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 14 14:22:41 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 14 14:22:43 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 14 14:25:12 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 14 14:25:12 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 14 16:25:17 10.71.51.19 u90889285 Connection from 10.71.51.19 port 18496 on 217.160.62.53 port 22
+Oct 14 16:25:31 10.71.51.19 u90889285 Accepted password for u90889285 from 10.71.51.19 port 18496 ssh2
+Oct 14 16:25:31 - u90889285 session opened for local user u90889285 from [10.71.51.19]
+Oct 14 16:27:11 - u90889285 sent status No such file
+Oct 14 16:27:12 - u90889285 rename old "/DrumDev/img/favicon2.ico" new "/DrumDev/img/icon2.ico"
+Oct 14 16:27:12 - u90889285 [10.71.51.19|rename|0|0|0|0|0|2f4472756d4465762f696d672f66617669636f6e322e69636f|2f4472756d4465762f696d672f69636f6e322e69636f]
+Oct 14 16:33:16 - u90889285 session closed for local user u90889285 from [10.71.51.19]
+Oct 14 16:33:16 10.71.51.19 u90889285 Connection closed by 10.71.51.19
+Oct 14 16:46:02 10.71.51.19 u90889285 Connection from 10.71.51.19 port 16184 on 217.160.62.53 port 22
+Oct 14 16:46:04 10.71.51.19 u90889285 Accepted password for u90889285 from 10.71.51.19 port 16184 ssh2
+Oct 14 16:46:04 - u90889285 session opened for local user u90889285 from [10.71.51.19]
+Oct 14 16:46:31 10.71.51.19 u90889285 Connection from 10.71.51.19 port 40624 on 217.160.62.53 port 22
+Oct 14 16:46:31 10.71.51.19 u90889285 Accepted password for u90889285 from 10.71.51.19 port 40624 ssh2
+Oct 14 16:46:31 - u90889285 session opened for local user u90889285 from [10.71.51.19]
+Oct 14 16:46:35 - u90889285 open "/DrumDev/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 14 16:46:39 - u90889285 close "/DrumDev/index.html" bytes read 0 written 358691
+Oct 14 16:46:39 - u90889285 [10.71.51.19|put|4|358691|0|0|0|2f4472756d4465762f696e6465782e68746d6c|]
+Oct 14 16:46:52 - u90889285 remove name "/DrumDev/img/icon2.ico"
+Oct 14 16:46:52 - u90889285 [10.71.51.19|rm|0|0|0|0|0|2f4472756d4465762f696d672f69636f6e322e69636f|]
+Oct 14 16:46:56 - u90889285 sent status No such file
+Oct 14 16:46:56 - u90889285 open "/DrumDev/img/favicon.ico" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 14 16:46:56 - u90889285 close "/DrumDev/img/favicon.ico" bytes read 0 written 1150
+Oct 14 16:46:56 - u90889285 [10.71.51.19|put|0|1150|0|0|0|2f4472756d4465762f696d672f66617669636f6e2e69636f|]
+Oct 14 16:47:56 10.71.51.19 u90889285 Connection closed by 10.71.51.19
+Oct 14 16:47:56 - u90889285 session closed for local user u90889285 from [10.71.51.19]
+Oct 14 16:50:23 10.71.51.19 u90889285 Connection closed by 10.71.51.19
+Oct 14 16:50:23 - u90889285 session closed for local user u90889285 from [10.71.51.19]
+Oct 15 21:48:33 10.71.51.39 u90889285 Connection from 10.71.51.39 port 35970 on 217.160.62.53 port 22
+Oct 15 21:48:37 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 35970 ssh2
+Oct 15 21:48:37 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 15 21:49:11 - u90889285 sent status No such file
+Oct 15 21:49:11 - u90889285 mkdir name "/DrumDev/public" mode 0777
+Oct 15 21:49:11 - u90889285 [10.71.51.39|mkdir|0|0|511|0|0|2f4472756d4465762f7075626c6963|]
+Oct 15 21:49:15 - u90889285 sent status No such file
+Oct 15 21:49:15 - u90889285 rename old "/DrumDev/img" new "/DrumDev/public/img"
+Oct 15 21:49:15 - u90889285 [10.71.51.39|rename|0|0|0|0|0|2f4472756d4465762f696d67|2f4472756d4465762f7075626c69632f696d67]
+Oct 15 21:49:38 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 15 21:49:38 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 15 21:49:38 10.71.51.39 u90889285 Connection from 10.71.51.39 port 42648 on 217.160.62.53 port 22
+Oct 15 21:49:41 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 42648 ssh2
+Oct 15 21:49:42 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 15 21:50:09 10.71.51.39 u90889285 Connection from 10.71.51.39 port 15878 on 217.160.62.53 port 22
+Oct 15 21:50:19 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 15878 ssh2
+Oct 15 21:50:19 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 15 21:50:48 - u90889285 open "/DrumDev/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 15 21:51:04 - u90889285 close "/DrumDev/index.html" bytes read 0 written 378091
+Oct 15 21:51:04 - u90889285 [10.71.51.39|put|16|378091|0|0|0|2f4472756d4465762f696e6465782e68746d6c|]
+Oct 15 21:52:04 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 15 21:52:04 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 15 22:00:32 - u90889285 session closed for local user u90889285 from [10.71.51.39]
+Oct 15 22:00:32 10.71.51.39 u90889285 Connection closed by 10.71.51.39
+Oct 15 23:25:41 10.71.51.39 u90889285 Connection from 10.71.51.39 port 24678 on 217.160.62.53 port 22
+Oct 15 23:25:42 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 24678 ssh2
+Oct 15 23:25:43 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 15 23:26:12 10.71.51.39 u90889285 Connection from 10.71.51.39 port 51732 on 217.160.62.53 port 22
+Oct 15 23:26:12 10.71.51.39 u90889285 Accepted password for u90889285 from 10.71.51.39 port 51732 ssh2
+Oct 15 23:26:12 - u90889285 session opened for local user u90889285 from [10.71.51.39]
+Oct 15 23:26:15 - u90889285 open "/DrumDev/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 15 23:26:23 - u90889285 close "/DrumDev/index.html" bytes read 0 written 378033
+Oct 15 23:26:23 - u90889285 [10.71.51.39|put|8|378033|0|0|0|2f4472756d4465762f696e6465782e68746d6c|]
+Oct 15 23:27:22 - u90889285 open "/logs/.htaccess" flags READ mode 0666
+Oct 15 23:27:22 - u90889285 close "/logs/.htaccess" bytes read 267 written 0
+Oct 15 23:27:22 - u90889285 [10.71.51.39|get|0|267|0|0|0|2f6c6f67732f2e6874616363657373|]
+Oct 15 23:28:12 - u90889285 open "/logs/.htaccess" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 15 23:28:12 - u90889285 sent status Permission denied
+Oct 15 23:28:16 - u90889285 open "/logs/.htaccess" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 15 23:28:16 - u90889285 sent status Permission denied
+Oct 15 23:28:24 - u90889285 open "/logs/.htaccess" flags WRITE,CREATE,TRUNCATE mode 0666
+Oct 15 23:28:24 - u90889285 sent status Permission denied
+Oct 15 23:28:52 - u90889285 open "/logs/sftp.log" flags READ mode 0666

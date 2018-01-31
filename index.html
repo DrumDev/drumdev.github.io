@@ -28,6 +28,17 @@
         <meta name="twitter:description" content="DrumDev is a work in progress created by two Web Developers in Drumchapel. Web Design is a hobby of ours and this is good for practice and experience." />
         <meta name="twitter:image" content="https://drumdev.co.uk/public/img/dd-meta-img-tw.png" />
         
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108177852-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-108177852-1');
+        </script>
+
+        
 
         <style>
             /* Fonts */
@@ -655,7 +666,7 @@ ul:not(.navbar-nav) li p{
 .img-on-device{
     width:100%;
     max-width:500px;
-    margin-bottom:20px;
+    margin-bottom:20px!important;
 }
 #latest-news .card{
     width:70%;
@@ -773,7 +784,7 @@ ul:not(.navbar-nav) li p{
     .img-on-device{
         width:100%;
         max-width:500px;
-        margin:20px auto;
+        margin:20px auto!important;
     }
     #what-we-do p{
         text-align:left;
@@ -935,7 +946,7 @@ ul:not(.navbar-nav) li p{
                             <li><p>Web Design</p></li>
                             <li><p>Web Development</p></li>
                             <li><p>Websites from scratch</p></li>
-                            <li><p>Wordpress sites and blogs</p></li>      
+                            <li><p>CMS sites and blogs</p></li>      
                         </ul>
                         <br>
                     </div>
@@ -1021,23 +1032,20 @@ ul:not(.navbar-nav) li p{
                                 </div>
                                 <div id="dd-content-z2" class="collapse" role="tabpanel" aria-labelledby="dd-h-z2" data-parent="#dd-trigger-z2">
                                     <div class="card-body text-left">
-                                        <p>Zander has worked as a Front End Web Developer since April this year, totalling to seven months professional experience. In this seven months he has received help from other developers with more experience than him and is learning more and more every day he works.</p>
+                                        <p>Zander has worked as a Front End Web Developer since April 2017, totalling to ten months professional experience. In this time he has received help from other developers with more experience than him and is learning more and more every day he works.</p>
+<!--
                                         <p>Thanks to his job he has:</p>
                                         <br>
                                         <ul>
                                             <li><p>Gained hands on experience with working by SEO guidelines</p></li>
                                             <li><p>Worked on several versions of the main four company websites</p></li>
-                                            <li><p>Learned how to use Adobe Photoshop</p></li>
-                                            <li><p>Learned how to use Adobe Illustrator</p></li>
-                                            <li><p>Learned how to style emails</p></li>
+                                            <li><p>Learned how to use Photoshop &amp; Illustrator</p></li>
                                             <li><p>Learned alot on best practices</p></li>
                                             <li><p>Improved team working skills</p></li>
-                                            <li><p>Gained lots of hand on experience with GitHub, especially for team environments</p></li>
-                                            <li><p>Gained lots of hand on experience with Bootstrap</p></li>
                                             <li><p>Learned how to use multiple JQuery plugins</p></li>
-                                            <li><p>Gained experience using project management tools</p></li>
                                             <li><p>and more...</p></li>
                                         </ul>
+-->
                                     </div>
                                 </div>
                             </div>
@@ -1162,22 +1170,27 @@ ul:not(.navbar-nav) li p{
                 <h2>Our Work</h2>
                 <div class="row our-work-slick">
                     <div class="col-lg-4 project first">
+                        <h3>Shannexx Photography</h3>
+                        <img src="public/img/shannexx-devices.png" alt="Shannexx Photography" class="img-on-device"/>
+                        <p>Created in January 2018 for a friend using Webflow. </p>
+                        <a href="https://shannexx-photography.webflow.io" target="_blank" class="smooth-scroll btn btn-secondary drum-btn">Visit Site</a>
+                    </div>
+                    <div class="col-lg-4 project">
                         <h3>Drumchapel Foodbank</h3>
                         <img src="public/img/dfb-devices.png" alt="Drumchapel Foodbank" class="img-on-device"/>
-                        <p>Designed and created in 2016. Currently not in use but can still be viewed. Wide Desktop was in progress.</p>
+                        <p>Zander's first ever project made from scratch while helping out at DFB. Currently not in use but can still be viewed.</p>
                         <a href="https://drumdev.github.io/foodbank" target="_blank" class="smooth-scroll btn btn-secondary drum-btn">Visit Site</a>
                     </div>
                     <div class="col-lg-4 project">
                         <h3>CCTV Scotland</h3>
                         <img src="public/img/cctv-devices.png" alt="CCTV Scotland" class="img-on-device"/>
-                        <p>Designed and made in 2016. This is a fictional CCTV company.</p>
+                        <p>This is a fictional CCTV company that was made for practice with Bootstrap. Thought I'd share it anyway.</p>
                         <a href="https://drumdev.github.io/CCTV" target="_blank" class="smooth-scroll btn btn-secondary drum-btn">Visit Site</a>
                     </div>
                     <div class="col-lg-4 project last">
                         <h3>Save Small Tribes Trust</h3>
                         <img src="public/img/tr-devices.png" alt="Save Small Tribes Trust" class="img-on-device"/>
-                        <p>Designed and made in 2016. Haven't received proper content for it so it's sitting idle.</p>
-                        <p>This might get remade if we get content.</p>
+                        <p>Started in 2016 for a family friend but never received any content so it was stopped at an early stage.</p>
                         <a href="https://drumdev.github.io/Tribes" target="_blank" class="smooth-scroll btn btn-secondary drum-btn">Visit Site</a>
                     </div>  
                 </div>
@@ -1249,7 +1262,7 @@ ul:not(.navbar-nav) li p{
                     <a href="https://drumdevs.wordpress.com" target="_blank"><img src="public/img/wp.svg" alt="Wordpress" class="social"/></a>
                     <a href="https://github.com/drumdev" target="_blank"><img src="public/img/gh.svg" alt="Github" class="social"/></a>
                     <p><a href="#top" class="link smooth-scroll">Return to top</a></p>
-                    <p class="text-muted"> &copy; 2017 DrumDev.co.uk </p>
+                    <p class="text-muted"> &copy; 2018 DrumDev.co.uk </p>
                 </div>
             </div>
         </footer>
@@ -1339,8 +1352,8 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
             arrows: false,
             infinite: false,
             speed: 300,
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 2,
+            slidesToScroll: 2,
             responsive: [
               {
                 breakpoint: 992,
